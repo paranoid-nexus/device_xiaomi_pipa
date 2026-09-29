@@ -1,4 +1,5 @@
 # Unpinned blobs from pipa_pad_cn-user 14 UKQ1.240624.001 OS2.0.20.0.UMZCNXM release-keys
+# pipa: global-user 14 RKQ1.211001.001 OS2.0.14.0.UMZMIXM_14.0 release-keys
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Tutu/Tutu_Bluetooth_cal.acdb
@@ -519,11 +520,11 @@ vendor/firmware/a650_zap.mdt
 vendor/lib/hw/vulkan.adreno.so
 vendor/lib64/hw/vulkan.adreno.so
 
-# HotwordEnrollment
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk;PRESIGNED
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk;PRESIGNED
-system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
--system_ext/framework/com.android.hotwordenrollment.common.util.jar
+# HotwordEnrollment - pipa-global-user
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND/HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND.apk;PRESIGNED|e0c441714989a6b5957e4fc7ceb94838941b82db
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND/HotwordEnrollmentXGoogleHEXAGON_WIDEBAND.apk;PRESIGNED|ad1c7e220933a7465d0961c4076f51a9d21a2276
+system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|99cfd80965c170f4885a7dd62c0eaad1a0c7840f
+-system_ext/framework/com.android.hotwordenrollment.common.util.jar|df689dc9f599fbf0791191a08609642341efb37f
 
 # IPA firmware
 vendor/etc/init/ipa_fws.rc
